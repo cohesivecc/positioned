@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "positioned"
   
-  s.add_dependency "rails", "~> 3.0.1"
+  s.add_dependency "rails", ">= 3.0.1"
 
   s.files         = `git ls-files`.split("\n")
   s.require_paths = ["lib"]
